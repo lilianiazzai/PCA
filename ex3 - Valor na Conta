@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main ()
+{
+    float vaco;
+    float porcent;
+
+    printf("Digite o valor da sua conta: ");
+    scanf("%f", &vaco);
+
+    porcent = (vaco * 10)/100;
+    printf("10% do valor da sua conta é R$%f", porcent);
+
+    return 0;
+}
