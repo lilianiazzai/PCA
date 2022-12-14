@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+int main()
+{
+    int altura;
+    int base;
+    int area;
+
+    printf("Quanto mede a altura ");
+    scanf("%i", &altura);
+
+    printf("Quanto mede a base ");
+    scanf("%i", &base);
+
+    area = (base * altura)/2;
+    printf("A area do triangulo é: %i", area);
+    
+    return 0;
+}
