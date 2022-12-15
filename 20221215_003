@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+int main()
+{
+    float me, cm;
+    printf("Digite uma medida em metros: ");
+    scanf("%f", &me);
+    cm = me * 100;
+    printf("O valor %.2fm equivale a %.2fcm", me, cm);
+
+    return 0;
+}
