@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main(int argc, char const *argv[])
+{
+    float faro, celso;
+
+    printf("Digite a temperatura em Farenheit: ");
+    scanf("%f", &faro);
+
+    celso = (5 * (faro - 32)/9);
+    printf("Essa temperatura em Celsius vale %.2f", celso);
+    return 0;
+}
