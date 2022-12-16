@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main(int argc, char const *argv[])
+{
+    float horas, salh, salario;
+
+    printf("Quanto voce ganha por hora: ");
+    scanf("%f", &salh);
+    printf("Quantas horas voce trabalhou no mes: ");
+    scanf("%f", &horas);
+
+    salario = horas * salh;
+
+    printf("Salário mensal: %.2f", salario);
+    return 0;
+}

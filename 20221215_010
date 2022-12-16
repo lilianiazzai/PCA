@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+int main() 
+{
+    float alt, peso;
+    printf("Digite sua altura: ");
+    scanf("%f", &alt);
+    peso = 72.7 * alt - 58;
+    
+    printf("Seu peso ideal é %.2fkg", peso);
+    return 0;
+}

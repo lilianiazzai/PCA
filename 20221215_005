@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main(int argc, char const *argv[])
+{
+    float lado, area, area2;
+    printf("AREA DE UM QUADRADO\n");
+    printf("Digite a medida do lado: ");
+    scanf("%f", &lado); 
+    
+    area = lado * lado;
+    area2 = area * 2;
+
+    printf("O dobro da área do quadrado vale: %f", area2);
+    return 0;
+}
