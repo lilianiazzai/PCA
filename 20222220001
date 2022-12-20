@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main(int argc, char const *argv[])
+{
+    int count = 0, n1 = 0, add = 0;
+
+    while (count < 5) {
+        printf("Enter a number: ");
+        scanf("%i", &n1);
+        count++;
+        add += n1;
+    }
+
+    printf("ADDITTION = %i", add);
+    return 0;
+}
