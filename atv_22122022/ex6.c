@@ -18,7 +18,7 @@ int main(int argc, char const *argv[])
     if (num == res) {
         printf("Esse e um numero perfeito");
     } else {
-        printf("Esse nao 3 um numero perfeito");
+        printf("Esse nao e um numero perfeito");
     }
     
     return 0;
